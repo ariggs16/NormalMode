@@ -1,223 +1,163 @@
 html {
-	box-sizing:border-box;
+    box-sizing:border-box;
 }
 *, *:before, *:after {
-	box-sizing:inherit;
+    box-sizing:inherit;
 }
 body {
-	background-image: url("images/bg.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
+    background-image:url(images/bg.jpg);
+    background-color:black;
+    background-size:cover;
+}
+.container {
+    width: 1300px;
+    margin: auto;
 }
 .sub {
-	width: 150px;
-    padding: 10px;
-    position: absolute;
-    top: 15px;
-    left: 800px;
     color: white;
+    width: 76px;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    left: 820px;
 }
 #top {
-    width: 1055px;
-    margin: auto;
-    margin-top: 80px;
+    margin-top: 20px;
     height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    width: 320px;
+    height: 60px;
+    line-height:38px;
+    background: rgb(180, 41, 46);
+    font-size: 20px;
+    color: white;
     text-align: center;
-    line-height: 65px;
-}
-.p1 {
-    padding: 20px;
-    padding-left: 54px;
-    padding-right: 54px;
-    background: rgb(180, 41, 46);
-    font-size: 20px;
-    color: white;
-}
-.p2 {
-	padding: 20px;
-    padding-left: 54px;
-    padding-right: 54px;
-    background: rgb(180, 41, 46);
-    font-size: 20px;
-    color: white;
-}
-.p3 {
-	padding: 20px;
-    padding-left: 54px;
-    padding-right: 54px;
-    background: rgb(180, 41, 46);
-    font-size: 20px;
-    color: white;
-}
-.p4 {
- 	padding: 20px;
-    padding-left: 54px;
-    padding-right: 54px;
-    background: rgb(180, 41, 46);
-    font-size: 20px;
-    color: white;
+    padding: 10px;
+    float:left;
+    margin:auto;
 }
 .picture {
-	border:10px solid white;
-	background-image:url("images/top-image.png");
-	width: 1127px;
+    border: 10px solid white;
+    background-image: url(images/top-image.png);
+    width: 1296px;
     height: 400px;
-    position: absolute;
-    left: 160px;
+    /* position: absolute; */
+    /* left: 160px; */
     background-position: 25% 30%;
 }
 .picture1 {
-	background-image:url("images/peralta-logo.png");
-	position: relative;
+    background-image: url(images/peralta-logo.png);
+    position: relative;
     width: 420px;
     height: 250px;
     background-repeat: no-repeat;
-    left: 162px;
     top: 70px;
 }
 #section {
-	border:1px solid;
-	position: relative;
+    border:1px solid;
+    position: relative;
     width: 354px;
     top: 200px;
-    left: 152px;
     background-color: white;
     padding: 39px;
 }
-.bold {
-	font-size: 24px;
-    color: rgb(49,50,44);
+.bio{
+    background-color:white;
+    color:rgb(56,57,52);
+    width:429px;
+    height:688px;
+    margin:2px;
+    margin-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:37px;
+    font-size:29px;
+    text-align:left;
+    float:left;
 }
-.oct {
-	color:rgb(191, 191, 191);
-}
-.par {
-	color: rgb(49, 50, 44);
-    font-size: 14px;
-    line-height: 35px;
-}
-#section1 {
-	border:1px solid;
-	position: relative;
-    width: 354px;
-    height:454px;
-    top: -254px;
-    left: 536px;
-    background-color: white;
-    padding: 39px;
-}
-.rod {
-	font-size: 24px;
-    color: rgb(49,50,44);
-}
-.mar {
-	color:rgb(191, 191, 191);
-}
-.par1 {
-	color: rgb(49, 50, 44);
-    font-size: 14px;
-    line-height: 42px;
-}
-#section2 {
-	border:1px solid;
-	position: relative;
-    width: 354px;
-    height:454px;
-    top: -708px;
-    left: 924px;
-    background-color: white;
-    padding: 39px;
-}
-.ray {
-	font-size: 24px;
-    color: rgb(49,50,44);
-}
-.ber {
-	color:rgb(191, 191, 191);
-}
-.part2 {
-	color: rgb(49, 50, 44);
-    font-size: 14px;
-    line-height: 34px;
+.part {
+    color:rgb(172,172,172)
 }
 .name1 {
-	background-image:url("images/sk8er-4.png");
-	background-repeat:no-repeat;
-	background-position:80%;
-	background-size:cover;
-	border:5px solid white;
+    background-image:url("images/sk8er-4.png");
+    background-repeat:no-repeat;
+    background-position:80%;
+    background-size:cover;
+    border:5px solid white;
     color:white;
-    width:369px;
-    height:350px;
+    width:430px;
+    height:342px;
     line-height:350px;
     text-align: center;
     font-size:35px;
-    float: left;
-    margin: 1px;
-    position: relative;
-    top: -655px;
-    left:150px;
+    float:left;
+    margin:1px;
+    position:relative;
+    top:18px;
+    left:0px;
 }
 .name2 {
-	background-image:url("images/sk8er-3.png");
-	background-repeat:no-repeat;
-	background-size:cover;
-	border: 5px solid white;
-    color: white;
-    width: 382px;
-    height: 350px;
-    line-height: 350px;
-    text-align: center;
+    background-image:url("images/sk8er-3.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border: 5px solid white;
+    color:white;
+    width:431px;
+    height:342px;
+    line-height:350px;
+    text-align:center;
     font-size:35px;
     float: left;
-    margin: 1px;
-    position: relative;
-    top: -655px;
-    left:149px;
+    margin:1px;
+    position:relative;
+    top:17px;
+    left:1px;
 }
 .name3 {
-	background-image:url("images/sk8er-1.png");
-	background-repeat:no-repeat;
-	background-size:cover;
-	border: 5px solid white;
-    color: white;
-    width: 752px;
-    height: 350px;
-    line-height: 350px;
-    text-align: center;
+    background-image:url("images/sk8er-1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:5px solid white;
+    color:white;
+    width:863px;
+    height:350px;
+    line-height:350px;
+    text-align:center;
     font-size:35px;
     float: left;
     clear:left;
     margin: 1px;
-    position: relative;
-    top: -655px;
-    left:150px;
+    position:relative;
+    top:19px;
+    left:0px;
 }
 .name4 {
-	background-image:url("images/sk8er-2.png");
-	background-repeat:no-repeat;
-	background-position:75%;
-	background-size:cover;
-	border: 5px solid white;
+    background-image:url("images/sk8er-2.png");
+    background-repeat:no-repeat;
+    background-position:75%;
+    background-size:cover;
+    border: 5px solid white;
     color: white;
-    width: 374px;
-    height: 702px;
-    line-height: 702px;
-    text-align: center;
+    width:429px;
+    height:697px;
+    line-height:702px;
+    text-align:center;
     font-size:35px;
-    float: left;
-    margin: 1px;
-    position: relative;
-    top: -1007px;
-    left:150px;
+    float:left;
+    margin:1px;
+    position:relative;
+    top:-327px;
+    left:1px;
 }
-#board {
-	background:white;
-	width: 1129px;
-    height: 378px;
-    position: absolute;
-    top: 1840px;
-    left: 158px;
+.boards {
+    background-color:white;
+    width:1294px;
+    position:relative;
+    top:1384px;
 }
 .sk1 {
 	background-image:url("images/sk8-1.png");
@@ -233,7 +173,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:140px;
+    margin-left:150px;
 }
 .sk3 {
 	background-image:url("images/sk8-3.png");
@@ -241,7 +181,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:261px;
+    margin-left:282px;
 }
 .sk4 {
 	background-image:url("images/sk8-4.png");
@@ -249,7 +189,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:385px;
+    margin-left:420px;
 }
 .sk5 {
 	background-image:url("images/sk8-5.png");
@@ -257,7 +197,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:503px;
+    margin-left:556px;
 }
 .sk6 {
 	background-image:url("images/sk8-6.png");
@@ -265,7 +205,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:615px;
+    margin-left:692px;
 }
 .sk7 {
 	background-image:url("images/sk8-7.png");
@@ -273,7 +213,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:723px;
+    margin-left:827px;
 }
 .sk8 {
 	background-image:url("images/sk8-8.png");
@@ -281,7 +221,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:833px;
+    margin-left:954px;
 }
 .sk9 {
 	background-image:url("images/sk8-9.png");
@@ -289,7 +229,7 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:936px;
+    margin-left:1086px;
 }
 .sk10 {
 	background-image:url("images/sk8-10.png");
@@ -297,41 +237,40 @@ body {
     width: 64px;
     height: 262px;
     margin-top:-262px;
-    margin-left:1040px;
-}
-#info {
-	background:white;
-	position: absolute;
-    width: 1132px;
-    height: 400px;
-    top: 2250px;
-    left: 154px;
-}
-.con {
-	position: absolute;
-    top: 40px;
-    left: 40px;
-    font-size: 35px;
-    color: rgb(54, 55, 50);
-}
-.idk {
-	width: 600px;
-    height: 200px;
-    line-height: 50px;
-    font-size: 20px;
-    color: rgb(84, 84, 84);
-    position: absolute;
-    top: 100px;
-    left: 40px;
-}
-.fyi {
-	width: 400px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    line-height: 35px;
+    margin-left:1214px;
 }
 
+.info {
+    border: 1px solid;
+    width:1294px;
+    height:580px;
+    background:white;
+    display:flex; 
+}
+
+.contact_text_container {
+    width:50%;
+    padding:20px;
+    margin:auto;
+}
+.contact_text {
+    font-size:32px;
+    color:rgb(54,55,50);
+}
+
+.fyi {
+    float:right;
+    margin:auto;
+}
+
+.input_contact {
+    line-height:20px;
+    margin:5px;
+}
+.input_comment {
+    width:500px;
+    height:300px;
+}
 
 
 
